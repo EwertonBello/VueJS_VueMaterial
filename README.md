@@ -1,4 +1,4 @@
-# VueJS_VueMaterial
+# VueJS com Vue Material
 Um WebApp simples em VueJS, com consumo da API do StarWars e implementação do Vue Material no design.<br/><br/>
 <Strong>API Star Wars: </Strong>(https://swapi.co)<br/>
 <Strong>Vue-Router: </Strong>(https://www.npmjs.com/package/vue-router)<br/>
