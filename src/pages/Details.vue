@@ -17,46 +17,45 @@
         <div class="md-subhead">{{ filme.opening_crawl }}</div>
       </md-card-header>
     </md-card>
-
   </div>
 </template>
 
 <script>
 export default {
-    name: 'Details',
-    data() {
-      if(!this.$route.params.filme){
-        return{
+  name: "Details",
+  data() {
+    if (!this.$route.params.filme) {
+      return {
         filme: false
-        }
-      }else{
-        return{
+      };
+    } else {
+      return {
         filme: this.$route.params.filme
-        }
-      }
-    },
-    methods:{
-  		voltar(){
-  			this.$router.go(-1);
-  		}
-  	},
-    mounted(){
-      if(!this.filme){
-        this.$router.push('/');
-      }
+      };
+    }
+  },
+  methods: {
+    voltar() {
+      this.$router.go(-1);
+    }
+  },
+  mounted() {
+    if (!this.filme) {
+      this.$router.push("/");
     }
   }
+};
 </script>
 
 <style>
-  .page-container {
-    min-height: 300px;
-    overflow: hidden;
-    position: relative;
-    border: 1px solid rgba(#000, .12);
-  }
-  #media{
-    height: 30vw;
-    width: 100%;
-  }
+.page-container {
+  min-height: 300px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid rgba(#000, 0.12);
+}
+#media {
+  height: 30vw;
+  width: 100%;
+}
 </style>

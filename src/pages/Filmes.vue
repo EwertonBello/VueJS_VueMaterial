@@ -1,13 +1,13 @@
 <template>
-     <ListaFilmes/>
+  <ListaFilmes/>
 </template>
 
 <script>
-import ListaFilmes from "../components/ListaFilmes.vue"
+import ListaFilmes from "../components/ListaFilmes.vue";
 
-  export default {
-    components:{
-    	ListaFilmes
-    }
+export default {
+  components: {
+    ListaFilmes
   }
+};
 </script>
