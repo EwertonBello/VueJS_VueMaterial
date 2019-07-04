@@ -4,6 +4,7 @@ Um WebApp simples em VueJS, com consumo da API do StarWars e implementação do 
 <Strong>Vue-Router: </Strong>(https://www.npmjs.com/package/vue-router)<br/>
 <Strong>Vue Material: </Strong>(https://vuematerial.io/)<br/>
 <Strong>Axios: </Strong>(https://www.npmjs.com/package/axios)<br/>
+<Strong>Demo: </Strong>(https://ewertonbello.github.io/VueJS_VueMaterial/)<br/>
 
 <hr>
 
