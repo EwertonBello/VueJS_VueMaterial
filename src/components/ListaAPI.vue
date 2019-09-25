@@ -2,7 +2,7 @@
   <div>
     <div id="sp">
       <md-progress-spinner
-        v-show="true"
+        v-show="loading"
         class="md-tranparent"
         :md-diameter="90"
         :md-stroke="10"
